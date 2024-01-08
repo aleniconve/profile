@@ -1,0 +1,134 @@
+body {
+  background-color: cornsilk;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: grey;
+  font-size: medium;
+  line-height: normal;
+  text-align: center;
+}
+
+h1 {
+color: darkslategray;
+padding-top: 22;
+margin:20;
+font-family: 'Bebas Neue', sans-serif;
+font-size: xx-large;
+line-height: 100%;
+}
+
+#btn_more_info {
+color: white;
+text-decoration: dashed;
+font-size: medium;
+}
+
+img {
+  height: auto;
+  width: 25%;
+  border-radius: 50%;
+}
+
+h2 {
+  font-size: large;
+  color: rgba(100,100,100, 0.5);
+  padding: 15
+}
+
+#under_title {
+  font-size: small;
+  color: rgba(100,100,100, 1)
+}
+
+#btn_more_info:hover {
+  color: rgb(255, 255, 255);
+}
+
+#twitter_logo:hover {
+  color: red;
+}
+
+#facebook_logo:hover {
+  color: lightskyblue;
+}
+
+#instagram_logo:hover {
+  color: brown;
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+#main_info {
+
+  background: blanchedalmond;
+  border-radius: 4%;
+  box-shadow: 0px 0px 5px grey;
+  line-height: 1;
+  padding: 22;
+  width: 450;
+  height: auto;
+}
+
+#social_media_info {
+  margin-top: 50;
+  background: blanchedalmond;
+  width: 500;
+  border: 0cap;
+  border-radius: 1%;
+  box-shadow: 0px 0px 5px grey;
+  font-size: x-large;
+
+}
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+  padding-bottom: 20px;
+  width: 50px;
+  size: 50px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+  margin: 1;
+}
+
+.button {
+  background-color:darksalmon;
+  border-radius: 1%;
+  padding: 10px 24px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  box-shadow: 0px 0px 5px grey;
+}
+
+.button:hover {
+  background-color: #04AA6D; /* Green */
+  color: white;
+}
